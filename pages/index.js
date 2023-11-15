@@ -11,10 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <div id="example1"></div>
+    <script src="/js/pdfobject.js"></script>
+<script>PDFObject.embed("2023_PORTFOLIO_CamillaMarani.pdf", "#example1");</script>
       </main>
 
       <Footer />
